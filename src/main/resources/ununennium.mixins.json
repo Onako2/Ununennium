@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rs.majic.onako2.ununennium.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinEntitySelector",
+    "MixinMinecraftServer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

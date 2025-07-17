@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ununennium",
+  "version": "${version}",
+  "name": "Ununennium",
+  "description": "Cache selectors in commands to let Minecraft go brr",
+  "authors": [
+    "Onako2"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Onako2/Ununennium",
+    "sources": "https://github.com/Onako2/Ununennium",
+    "issues": "https://github.com/Onako2/Ununennium/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/ununennium/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rs.majic.onako2.ununennium.Ununennium"
+    ]
+  },
+  "mixins": [
+    "ununennium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/nFpa776nQk"
+      }
+    }
+  }
+}
