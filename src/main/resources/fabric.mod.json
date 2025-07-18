@@ -24,8 +24,7 @@
     "ununennium.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
+    "fabricloader": "*",
     "minecraft": ">=${minecraft_version}"
   },
   "custom": {
