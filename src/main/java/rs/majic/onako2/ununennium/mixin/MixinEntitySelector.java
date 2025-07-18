@@ -31,6 +31,7 @@ public abstract class MixinEntitySelector {
             boolean isHit = entityList.stream().allMatch(predicate);
 
             if (isHit) {
+                // LOGGER.info("CACHE HIT {}, {}", potHit.toString(), entityList);
                 cir.setReturnValue(this.sortAndLimit(vec3, entityList));
             } else {
                 cache.remove(potHit);
